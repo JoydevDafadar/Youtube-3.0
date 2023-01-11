@@ -102,3 +102,51 @@
 .videocard h2 i{
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 750px){
+
+    .main .sidebar {
+        width: 30vw;
+    }
+    .main .interface {
+        width: 75vw;
+    }
+    .videocard img{
+        height: 150px;
+    }
+    .videocard{
+        width: 200px;
+    }
+
+
+
+}
+@media screen and ( max-width: 600px) {
+    
+    .main {
+        flex-direction: column;
+    }
+    .main .sidebar{
+        flex-direction: row;
+        height: 5rem;
+        width: 100vw;
+        padding: 0rem 0rem;
+    }
+    .sidebar button{
+        padding: 0rem 1rem;
+        margin: 1rem .5rem;
+    }
+    .main .interface{
+        margin: 0rem;
+    }
+
+
+    .main .interface {
+        width: 95vw;
+    }
+    .videocard{
+        height: 250px;
+    }
+
+
+}

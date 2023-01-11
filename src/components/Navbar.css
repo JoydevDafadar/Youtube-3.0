@@ -33,3 +33,18 @@
     outline: none;
     border: none;
 }
+
+
+
+@media screen and ( max-width: 600px) {
+    
+    html{
+        font-size: 14px;
+    }
+    .search input{
+        width: 15rem;
+    }
+    
+
+
+}

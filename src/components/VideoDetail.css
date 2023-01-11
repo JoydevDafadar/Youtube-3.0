@@ -37,3 +37,26 @@
     height: calc(100vh - 3.5rem);
     overflow-y: scroll;
 }
+
+
+
+@media screen and ( max-width: 600px ) {
+    
+    .video-content-page {
+              display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .video-player {
+        /* height: 85vh; */
+        /* width: 75vw; */
+        width: 100vw;
+        height: 40vh;
+    }
+    .video-content-page .video-list {
+        /* height: calc(100vh - 3.5rem); */
+        /* overflow-y: scroll; */
+    }
+
+}
